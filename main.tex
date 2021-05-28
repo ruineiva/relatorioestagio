@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt,twoside]{book}
+\usepackage{lesi/lesi}
+
+\title{Desenvolvimento de App WaVe Rotas Turísticas}
+\author{Rui Jorge da Ponte Neiva}
+\nrAluno{14103}
+\regimeDiurno         % ou \regimePosLaboral
+\LESI
+\date{2020/2021}
+
+%% Caso tenham mais que um orientador, colocar
+%% \orientador{Nome professor \AND Nome professor}
+\orientador{Maria Manuela Cruz da Cunha}
+
+%% comentar estas três linhas para projectos
+\empresa{Wave Solutions - Sistemas de Informação}
+\enderecoEmpresa{Rua do Parque Industrial 5, 4755-539 Várzea}
+\supervisor{Filipe Fonseca}
+
+% comentar se não for para usar glossários
+\makeglossaries
+
+
+
+
+\begin{document}
+\frontmatter
+\maketitle  % print the title
+
+
+\begin{resumo}
+ 
+Resumo do trabalho realizado. Deve ser sucinto, e cobrir todo o relatório: uma introdução ao problema que se pretendeu resolver, um pequeno resumo da abordagem realizada, e algumas conclusões do trabalho atingido.
+
+Poderão ser criados vários parágrafos, até para que cada um corresponda às três fases de introdução, desenvolvimento e conclusão.
+
+Não é relevante colocar no resumo o local de estágio ou a referência ao curso. Essa informação já consta da capa.
+\end{resumo}
+
+\begin{abstract}
+This is the translation of the previous text. It should say the exact same thing. Please do not use directly Google Translator.
+\end{abstract}
+
+%% Comment the following part if you are not acknowledging anybody
+\begin{agradecimentos}
+[A secção de agradecimentos é a parte pessoal do documento, e o único sítio onde o aluno pode escrever de forma menos formal, usando o tipo de linguagem que lhe parecer adequado para as pessoas a quem agradece.]
+\end{agradecimentos}
+
+
+\tableofcontents
+
+% comentar se nao tiver figuraIs
+\listoffigures
+
+% comentar se nao tiver tabelas
+\listoftables
+
+% comentar se nao se quiser lista de listagens
+\lstlistoflistings
+
+% Commentar proximas duas linhas se nao for para usar acronimos
+\input{acronimos}
+\printglossary[type=\acronymtype,title={Siglas \& Acrónimos}]
+
+% Commentar proximas duas linhas se nao for para usar glossarios
+\input{glossario}
+\printglossary
+
+
+\printglossary
+
+
+\mainmatter
+
+\input{chap1}
+\input{chap2}
+\input{chap3}
+\input{chap4}
+
+
+\bibliography{biblio}
+
+\end{document}

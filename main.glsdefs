@@ -1,0 +1,150 @@
+\ifglsentryexists{ftp}{}%
+{%
+\gls@defglossaryentry{ftp}%
+{%
+name={FTP},%
+sort={FTP},%
+type={acronym},%
+first={File Transfer Protocol (Protocolo de Transferência de Ficheiros) \glsspace (FTP)},%
+firstplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros) s\glsspace (FTPs)},%
+text={FTP},%
+plural={FTPs},%
+description={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
+descriptionplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros) \acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={File Transfer Protocol (Protocolo de Transferência de Ficheiros)},%
+longplural={File Transfer Protocol (Protocolo de Transferência de Ficheiros) s},%
+short={FTP},%
+shortplural={FTPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tcp}{}%
+{%
+\gls@defglossaryentry{tcp}%
+{%
+name={TCP},%
+sort={TCP},%
+type={acronym},%
+first={Transmission Control Protocol\glsspace (TCP)},%
+firstplural={Transmission Control Protocols\glsspace (TCPs)},%
+text={TCP},%
+plural={TCPs},%
+description={Transmission Control Protocol},%
+descriptionplural={Transmission Control Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission Control Protocol},%
+longplural={Transmission Control Protocols},%
+short={TCP},%
+shortplural={TCPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{http}{}%
+{%
+\gls@defglossaryentry{http}%
+{%
+name={HTTP},%
+sort={HTTP},%
+type={acronym},%
+first={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)\glsspace (HTTP)},%
+firstplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)s\glsspace (HTTPs)},%
+text={HTTP},%
+plural={HTTPs},%
+description={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
+descriptionplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)},%
+longplural={HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)s},%
+short={HTTP},%
+shortplural={HTTPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lematizador}{}%
+{%
+\gls@defglossaryentry{lematizador}%
+{%
+name={lematizador},%
+sort={lematizador},%
+type={main},%
+first={lematizador},%
+firstplural={lematizadors},%
+text={lematizador},%
+plural={lematizadors},%
+description={Com semelhanças com o Stemmer, também reduz uma palavra ao seu lema, que corresponde ao verbo no infinitivo no caso dos verbos, e ao masculino singular, no caso de nomes ou adjetivos.},%
+descriptionplural={Com semelhanças com o Stemmer, também reduz uma palavra ao seu lema, que corresponde ao verbo no infinitivo no caso dos verbos, e ao masculino singular, no caso de nomes ou adjetivos.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{stemmer}{}%
+{%
+\gls@defglossaryentry{stemmer}%
+{%
+name={stemmer},%
+sort={stemmer},%
+type={main},%
+first={stemmer},%
+firstplural={stemmers},%
+text={stemmer},%
+plural={stemmers},%
+description={Ferramenta capaz de reduzir uma palavra à sua raiz. Por exemplo, para a palavra ``correria'', a sua raiz seria ``corre''.},%
+descriptionplural={Ferramenta capaz de reduzir uma palavra à sua raiz. Por exemplo, para a palavra ``correria'', a sua raiz seria ``corre''.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
